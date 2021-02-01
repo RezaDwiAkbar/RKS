@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".artist">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.225"
+        app:srcCompat="@drawable/music" />
+
+    <TextView
+        android:layout_width="406dp"
+        android:layout_height="63dp"
+        android:background="@drawable/rounded"
+        android:backgroundTint="#000000"
+        android:padding="10dp"
+        android:text="Artist"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/btnlagu1"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded"
+        android:text="Andmesh"
+        android:textColor="#000000"
+        app:backgroundTint="#A9A9A9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.231"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.14" />
+
+    <Button
+        android:id="@+id/btnlagu2"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded"
+        android:text="Rizky Feb"
+        android:textColor="#000000"
+        app:backgroundTint="#A9A9A9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.29"
+        app:layout_constraintStart_toEndOf="@+id/btnlagu1"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.14" />
+
+    <Button
+        android:id="@+id/btnlagu3"
+        android:layout_width="130dp"
+        android:layout_height="52dp"
+        android:background="@drawable/rounded"
+        android:text="Seventeen"
+        android:textColor="#000000"
+        app:backgroundTint="#A9A9A9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.231"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.292" />
+
+    <Button
+        android:id="@+id/btnlagu4"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded"
+        android:text="Last Child"
+        android:textColor="#000000"
+        app:backgroundTint="#A9A9A9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.29"
+        app:layout_constraintStart_toEndOf="@+id/btnlagu3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.29" />
+
+    <Button
+        android:id="@+id/btnlagu5"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded"
+        android:text="Ari Lasso"
+        android:textColor="#000000"
+        app:backgroundTint="#A9A9A9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.231"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.441" />
+
+    <Button
+        android:id="@+id/btnlagu6"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded"
+        android:text="Ipank"
+        android:textColor="#000000"
+        app:backgroundTint="#A9A9A9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.782"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.441" />
+
+    <Button
+        android:id="@+id/btnlagu7"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded"
+        android:text="Afgan"
+        android:textColor="#000000"
+        app:backgroundTint="#A9A9A9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.231"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.593" />
+
+    <Button
+        android:id="@+id/btnlagu8"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded"
+        android:text="Felix"
+        android:textColor="#000000"
+        app:backgroundTint="#A9A9A9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.782"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.593" />
+</androidx.constraintlayout.widget.ConstraintLayout>
