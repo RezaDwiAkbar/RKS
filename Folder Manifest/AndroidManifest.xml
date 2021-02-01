@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dwiakbarreza.joox">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Joox">
+        <activity android:name=".dyhohaw"></activity>
+        <activity android:name=".momonon" />
+        <activity android:name=".tony" />
+        <activity android:name=".bobmarley" />
+        <activity android:name=".reggae" />
+        <activity android:name=".redvelvet" />
+        <activity android:name=".momoland" />
+        <activity android:name=".twice" />
+        <activity android:name=".blackpink" />
+        <activity android:name=".kpop" />
+        <activity android:name=".shawnmendes" />
+        <activity android:name=".justinbieber" />
+        <activity android:name=".maroon" />
+        <activity android:name=".arianagrande" />
+        <activity android:name=".internasional" />
+        <activity android:name=".arilasso" />
+        <activity android:name=".lastchild" />
+        <activity android:name=".seventeen" />
+        <activity android:name=".ipank" />
+        <activity android:name=".afgan" />
+        <activity android:name=".felix" />
+        <activity android:name=".rizky_febian" />
+        <activity android:name=".andmesh" />
+        <activity android:name=".favorit" />
+        <activity android:name=".playlist" />
+        <activity android:name=".artist" />
+        <activity android:name=".beranda" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
